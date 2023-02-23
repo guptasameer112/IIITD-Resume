@@ -1,0 +1,136 @@
+\documentclass[10pt]{extarticle}
+\usepackage{apMod}
+% Licensed: https://www.gnu.org/licenses/gpl-3.0.html
+% Template author: Anindya Prithvi
+% define all your stuff here
+\newcommand{\yourname}{Sameer Gupta}%
+\newcommand{\youremail}{sameer21093@iiitd.ac.in}%
+\newcommand{\youraddress}{Address: B-1/20, Mayur Vihar Phase-3, Delhi-110096}%
+\newcommand{\yourrollno}{2021093}%
+\newcommand{\yourDOB}{10 December, 2002}%
+\newcommand{\yourgithub}{https://github.com/guptasameer112}
+\newcommand{\yourphoto}{myphoto}% Only the filname without extension
+
+\newcommand{\contain}{0}%1 if you make each section of your resume inseperable (try and see) This was added to deal with newpage within section
+
+\begin{document}
+\cvheader%
+%
+\begin{contained}
+\sectionC{Education}
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+    \cveducationitem{Indraprastha Institute of Information Technology, Delhi}{B.Tech (CSE)}{2021 - present}{CGPA: 8.53\newline(Till 3\textsuperscript{rd} semester)}
+    \cveducationitem{Somerville School, Vasundhara Enclave, Delhi}{CBSE, Standard 12, PCM+CS}{2020-2021}{Percentage : 94.4\%}
+    \cveducationitem{Somerville School}{CBSE, Standard 10, PCM+CS}{2018-2019}{Percentage : 96\%}
+\end{longtable}%
+\vspace{0pt}
+\end{contained}
+%
+\begin{contained}
+\sectionC{Skills}
+%nothing to modularize here, just write your stuff
+\begin{longtable}{p{0.2\textwidth}p{0.75\textwidth}p{0.05\textwidth}}
+    \textbf{Expertise Area:}&
+    Data Structure \& Algorithm, Operating System, OOPs, Competitive Programming, Machine Learning, Database Management, \LaTeX \\
+    \textbf{Programming \newline Languages:}&
+    Java, Python, C++, C\\
+    \textbf{Tools and\newline Technologies:}&
+    Git, Github, Virtual Box, Django, React, IntelliJ IDEA, PyCharm, PyTorch, VSCode, Overleaf, Google Collab, Kaggle, Figma \\
+    \textbf{Technical Electives:}&
+    Algorithm Design \& Analysis, Data Structures \& Algorithms, Advanced Programming, Operating System, DBMS, Linear Algebra, Probability \& Statistics, Calculus, Discrete Mathematics.
+\end{longtable}%
+\vspace{0pt}
+\end{contained}
+%
+\begin{contained}
+\sectionC{Work Experience}
+%nothing to modularize here, just write your stuff
+\\
+\begingroup%
+\renewcommand\arraystretch{1}%
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+    \textbf{Undergraduate Researcher}&(Dec, 22 - Present)\\
+    {Advisor: Dr. Sambuddho Chakravarty, Dr. Rinku Shah}\\
+    To explore and identify the bottlenecks in firewall technologies and develop a faster firewall solution by leveraging hardware, stack, and application layer processing for efficient traffic handling.
+    \\
+    \textbf{Intern at TLE Eliminators}&(Jan, 23 - Present)\\
+    Built the Feedback System for TLE Eliminators, a competitive coding learning platform led by Priyansh Agarwal.
+\end{longtable}%
+\endgroup%
+\end{contained}
+\vspace{0pt}
+\begin{contained}
+\sectionC{Projects}
+% \vspace{-10pt}%
+%nothing to modularize here, just write your stuff
+%might add a row with \newline for techstack, but it seems pretty useless lol
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+    \textbf{Drug-Detection}\newline
+    Using chEMBL dataset and RandomForestClassfier to predict pIC50 values of acetylcholinesterase enzyme.
+    Repository \href{https://github.com/guptasameer112/Drug-Detection}{here}.
+    &Team Size-1
+    \newline (Jan, 23 - Feb, 23)\\
+    \textbf{Potato-Diseases}\newline
+    Using Keras and TensorFlow to create a potato disease detector. Repository \href{https://github.com/guptasameer112/Potato-Diseases}{here}.
+    &Team Size-1
+    \newline (Jan, 23)\\
+    \textbf{Tank Stars - GUI Game}\newline
+    A Clone of the popular Tank Stars Game, which focuses on tank fights. 
+    Players are allowed to control the movements and attack trajectories.
+    Repository \href{https://github.com/guptasameer112/Tank-Stars}{here}.
+    &Team Size-2
+    \newline (Aug, 22 - Dec, 22)\\
+    \textbf{ASM-Assembler-Simulator}\newline
+    Implemented a Custom Simulator and Assembler to convert assembly code to binary code (with error checks), and simulates the registers and execution.
+ Repository \href{https://github.com/guptasameer112/Assembler-Simulator}{here}.
+    &Team Size-2
+    \newline (Jan, 21 - Apr, 21)\\
+    \textbf{Market and News API}\newline
+    For finance-related information, including news and prices, using Python3 and APIs. Done as the bonus project for the course Introduction to Programming (CSE101).
+ Final report \href{https://github.com/guptasameer112/Market-and-News-API}{here}.
+    &Team Size-3
+    \newline (Jan, 22 - March, 22)\\
+\end{longtable}
+\end{contained}
+\vspace{0pt}
+\begin{contained}
+\sectionC{Positions of Responsibility}
+% \vspace{-10pt}
+\begin{longtable}{p{0.8\textwidth}p{0.19\textwidth}p{0.01\textwidth}}
+    IEEE Executive community Member & (Jan, 22 – Present)\\
+    Content Writer \& Financial Analysis at Finnexia & (Jul, 22 - Present)\\
+    Technical Head at D4rkc0de & (Jan, 22 - Present)\\
+    Core Member at OWASP & (Jan, 22 - Dec, 22) \\
+\end{longtable}
+\vspace{0pt}
+\end{contained}
+\begin{contained}
+\sectionC{Awards and Achievements}
+\vspace{0pt}
+\begin{itemize}
+    \setlength\itemsep{0.5pt}
+    \item \textbf{Flipkart GRid} 4.0 Level 2 Qualifier.
+    \item Won the \textbf{Best Educational CTF Challenge Award} at DEF CON 30.
+    \item Ranked \textbf{2nd WorldWide at WreckCTF 2022} as a member of d4rkc0de.
+    \item Ranked \textbf{4th Worldwide at the Digital Overdose CTF 2022} as a member of d4rkc0de.
+    \item Ranked \textbf{10th at the DEF CON Delhi 0x05 CTF} organised by DC911 group.
+    \item \textbf{Won Aurora CTF} organised by DTU as a member of d4rkc0de.
+\end{itemize}
+\vspace{0pt}
+\end{contained}
+\sectionC{Interests and Hobbies}
+\begin{contained}\\
+\begin{itemize}
+    \setlength\itemsep{0.5pt}
+    \item Machine Learning 
+    \item Finance
+    \item Basketball
+    \item Movies
+    \item Music
+\end{itemize}
+% \vspace{5pt}
+\end{contained}
+Declaration: The above information is correct to the best of my knowledge.\newline
+\yourname\newline
+Date: \today
+\end{document}
